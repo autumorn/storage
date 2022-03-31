@@ -7,6 +7,8 @@ slug: test-chinese
 categories:
     - Test
     - 测试
+tags:
+    - bilibili
 ---
 
 ## 正文测试

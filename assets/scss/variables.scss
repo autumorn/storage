@@ -20,7 +20,7 @@ $defaultTagColors: #fff, #fff, #fff, #fff, #fff;
 
     --tag-border-radius: 4px;
 
-    --section-separation: 40px;
+    --section-separation: 30px;
 
     --scrollbar-thumb: hsl(0, 0%, 85%);
     --scrollbar-track: var(--body-background);
@@ -44,7 +44,7 @@ $defaultTagColors: #fff, #fff, #fff, #fff, #fff;
     --zh-font-family: "PingFang SC", "Hiragino Sans GB", "Droid Sans Fallback", "Microsoft YaHei";
 
     --base-font-family: "Lato", var(--sys-font-family), var(--zh-font-family), sans-serif;
-    --code-font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+    --code-font-family: Consolas, Monaco, Menlo, "Courier New", monospace;
 }
 
 /*
@@ -59,22 +59,22 @@ $defaultTagColors: #fff, #fff, #fff, #fff, #fff;
     --card-text-color-tertiary: #bababa;
     --card-separator-color: rgba(218, 218, 218, 0.5);
 
-    --card-border-radius: 10px;
+    --card-border-radius: 3px;
 
-    --card-padding: 20px;
+    --card-padding: 2px;
 
     @include respond(md) {
-        --card-padding: 25px;
+        --card-padding: 1px;
     }
 
     @include respond(xl) {
-        --card-padding: 30px;
+        --card-padding: 15px;
     }
 
-    --small-card-padding: 25px 20px;
+    --small-card-padding: 15px 10px;
 
     @include respond(md) {
-        --small-card-padding: 25px;
+        --small-card-padding: 15px;
     }
 
     &[data-scheme="dark"] {
@@ -95,7 +95,7 @@ $defaultTagColors: #fff, #fff, #fff, #fff, #fff;
     --article-font-size: 1.6rem;
 
     @include respond(md) {
-        --article-font-size: 1.7rem;
+        --article-font-size: 1.5rem;
     }
 
     --article-line-height: 1.85;
