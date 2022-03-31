@@ -18,7 +18,7 @@ languages:
 disqusShortname: hugo-theme-stack
 
 # publish director
-publishDir: docs
+# publishDir: docs
 
 # GA Tracking ID
 googleAnalytics:
