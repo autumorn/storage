@@ -2,7 +2,7 @@ baseurl: https://autumorn.github.io
 languageCode: en-us
 theme: hugo-theme-stack
 paginate: 5
-title: Home
+title: Hoome
 
 languages:
     en:
