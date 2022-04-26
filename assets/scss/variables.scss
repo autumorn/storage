@@ -11,12 +11,12 @@ $defaultTagColors: #fff, #fff, #fff, #fff, #fff;
         --main-top-padding: 50px;
     }
 
-    --body-background: #f5f5fa;
+    --body-background: #f8ebd8;
 
     --accent-color: #34495e;
     --accent-color-darker: #2c3e50;
     --accent-color-text: #fff;
-    --body-text-color: #bababa;
+    --body-text-color: #272727;
 
     --tag-border-radius: 4px;
 
@@ -51,7 +51,7 @@ $defaultTagColors: #fff, #fff, #fff, #fff, #fff;
 *   Card style
 */
 :root {
-    --card-background: #fff;
+    --card-background: #fdf9ee;
     --card-background-selected: #eaeaea;
 
     --card-text-color-main: #000;
@@ -59,7 +59,7 @@ $defaultTagColors: #fff, #fff, #fff, #fff, #fff;
     --card-text-color-tertiary: #bababa;
     --card-separator-color: rgba(218, 218, 218, 0.5);
 
-    --card-border-radius: 3px;
+    --card-border-radius: 10px;
 
     --card-padding: 2px;
 
